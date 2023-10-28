@@ -1,0 +1,95 @@
+:root {
+
+}
+
+body {
+    background-image: url(/starter/images/02-hero-bg.jpg);
+    color: white;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.navBar {
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    min-width: 300px;
+    justify-content: flex-end;
+    margin: 35px;
+} 
+
+.navBar li {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+.hero-banner {
+    /* background-image: url(/starter/images/02-hero-bg.jpg); */
+    padding: 5%;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+    color: white;
+}
+
+#profPic {
+    display: flex;
+    justify-content: center;
+    border-radius: 500px;
+    width: 150px;
+}
+
+section h2 {
+    display: flex;
+    margin: 10px;
+}
+
+#categoryGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 40% 60%;
+    grid-template-areas: 
+    "proj1 proj1"
+    "proj2 proj3";
+}
+
+
+
+#proj1 {
+    grid-area: proj1;
+    background-image: url(/images/prework\ image.png);
+    padding: 15%;
+    
+}
+
+#proj2 {
+    grid-area: proj2;
+    background-image: url(/images//Horiseon\ Image.png);
+    padding: 15%;
+    background-size: 100%;
+}
+
+#proj3 {
+    grid-area: proj3;
+    background-image: url(/starter/images/02-portfolio-1.jpg);
+    padding: 15%;
+    background-size: 100%;
+}
