@@ -2,18 +2,13 @@
 
 }
 
-body {
-    background-image: url(/starter/images/02-hero-bg.jpg);
-    color: white;
-}
-
 .heading {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: white;
 
 }
+
 
 .navBar {
     display: flex;
@@ -28,20 +23,9 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 10px;
+    color: black;
 }
 
-a:link {
-    color: white;
-}
-
-a:visited {
-    color: white;
-}
-
-.hero-banner {
-    /* background-image: url(/starter/images/02-hero-bg.jpg); */
-    padding: 5%;
-}
 
 #about {
     display: flex;
@@ -65,15 +49,13 @@ section h2 {
 #categoryGrid {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 40% 60%;
+    grid-template-rows: 60% 40%;
     grid-template-areas: 
     "proj1 proj1"
     "proj2 proj3";
 }
 
-
-
-#proj1 {
+ #proj1 {
     grid-area: proj1;
     background-image: url(/images/prework\ image.png);
     padding: 15%;
