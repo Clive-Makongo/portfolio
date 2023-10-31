@@ -26,13 +26,32 @@
     color: black;
 }
 
-
-#about {
+.hero-banner div {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    margin-left: 25px;
-    color: white;
+    background-image: url(/starter/images/02-hero-bg.jpg);
+    padding: 50px;
 }
+
+.page-section {
+    display: block;
+    justify-content: space-between;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+.page-section h2 {
+    display: block;
+    justify-content: space-between;
+    padding-right: 1%;
+    border-right: solid black 1px;
+}
+
+.abtMe {
+    padding-left: 50px;
+}
+
 
 #profPic {
     display: flex;
@@ -41,9 +60,23 @@
     width: 150px;
 }
 
-section h2 {
+#about {
     display: flex;
-    margin: 10px;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+#projects {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#projects h2 {
+    
+}
+
+#portfolio-container > h2 {
+    padding-left: 50px;
 }
 
 #categoryGrid {
@@ -74,4 +107,10 @@ section h2 {
     background-image: url(/starter/images/02-portfolio-1.jpg);
     padding: 15%;
     background-size: 100%;
+}
+
+.cards {
+    margin: 10px;
+    padding: 5px;
+    border: dashed black 2px;
 }
