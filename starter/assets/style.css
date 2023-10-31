@@ -126,13 +126,13 @@
     align-content: end;
 }
 
-.projHead {
+.cards .projHead {
     background-color: rgba(28, 116, 138, 0.925);
     padding: 15px;
     font-size: 18px;
     position: relative;
-    bottom: -90px;
-    left: 10px;
+    top: 70px;
+    left: -80px;
 }
 
 #contact > h2 {
@@ -147,4 +147,24 @@
     flex-direction: row;
     margin: 30px;
     
+}
+
+@media only screen and (max-width: 600px) {
+  #categoryGrid {
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "proj1"
+      "proj2"
+      "proj3";
+  }
+
+  .cards .projHead {
+    background-color: rgba(28, 116, 138, 0.925);
+    padding: 15px;
+    font-size: 18px;
+    position: relative;
+    top: 50px;
+    left: -30px;
+}
 }
