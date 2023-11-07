@@ -12,7 +12,7 @@ This was made in order to practice creating functional links, adding images to a
 ## Usage 
 
 ```md
-![Project Screenshot](assets/images/project-screenshot)
+![](assets/images/project-screenshot)
 ```
 
 
